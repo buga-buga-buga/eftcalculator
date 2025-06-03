@@ -26,7 +26,7 @@ Public Class frmMain
 
     'Read keys and add to list view.
     Private Sub frmMain_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        lnkHome.Links.Add(0, lnkHome.Text.Length, "http://eftcalculator.codeplex.com/")
+        lnkHome.Links.Add(0, lnkHome.Text.Length, "https://codeplexarchive.org/codeplex/project/eftcalculator")
 
         txtPINKey.ShowLoadKey = True
         txtPINKey.ShowGenerateKey = True
